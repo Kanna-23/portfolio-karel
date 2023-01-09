@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../IMG/Fond_page01.png);
+    /*background-image: url(../IMG/F_02.png);*/
+    background-color: #0f0f0f;
+    /*overflow: hidden;*/
+    background-size: cover;
+}
+
+
+.page h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color:#d4d4d4 ;
+}
+
+.content img {
+  padding-left: 10vw;
+  display: flex;
+  justify-content: center;
+  max-width: 15%;
+}
+
+.content h2 {
+  padding-top: 5vh;
+  color: #d4d4d4;
+  font-size: 45px;
+  font-family: 'Gill';
+  padding-left: 10vw;
+}
+
+.content p {
+  padding-top: 3vh;
+  padding-left: 10vw;
+  font-family:'Gill' ;
+  font-size: 25px;
+  color: #d4d4d4;
+}
+
+@media (min-width: 600px){
+  .title h1 {
+    font-family:'Gill Sans MT';
+    font-size: 5em;
+    color: #d4d4d4;
+    padding-top: 15vh;
+    padding-left: 10vw;
+  }
+  .img_3d_artist img {
+    padding-left: 10vw;
+    max-width: 50%;
+  }
+  .mentionart {
+    display: flex;
+    justify-content: center;
+    padding-top: 30vh;
+    padding-right: 5vw;
+    font-size: 0.8em;
+    font-family: 'Gill';
+    color: #d4d4d4;
+  }
+}
+
+@media (min-width: 1300px){
+  .title h1 {
+    font-family:'Gill Sans MT';
+    font-size: 10em;
+    color: #d4d4d4;
+    padding-top: 18vh;
+    padding-left: 10vw;
+  }
+  .img_3d_artist img {
+    padding-left: 10vw;
+    max-width: 100%;
+  }
+  .mentionart {
+    display: flex;
+    justify-content: right;
+    padding-top: 20vh;
+    padding-right: 5vw;
+    font-size: 0.8em;
+    font-family: 'Gill';
+    color: #d4d4d4;
+  }
+}
+
+
+.imgnav {
+  align-items: center;
+  max-width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.navbar a {
+    font-family:'Gill Sans MT';
+    text-decoration: none;
+    color: #d4d4d4;
+    font-size: 25px;
+}
+
+.nav-link ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link li {
+  margin: 0 30px;
+}
+
+
+
+
