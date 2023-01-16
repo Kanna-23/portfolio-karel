@@ -6,44 +6,171 @@
 }
 
 body {
-    height: 100%;
+    height: 300vh;
     width: 100%;
-    background-image: url(../IMG/Fond_page01.png);
     /*background-image: url(../IMG/F_02.png);*/
     background-color: #0f0f0f;
     /*overflow: hidden;*/
     background-size: cover;
 }
 
+.navbar{
+  background-color: #0f0f0f;
+  position: fixed;
+}
 
-.page h1 {
+.imgnav {
+  align-items: center;
+  max-width: 100%;
+}
+
+.navbar {
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar a {
+    font-family:'Gill Sans MT';
+    text-decoration: none;
+    color: #d4d4d4;
+    font-size: 25px;
+}
+
+.nav-link ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a.current {
+  color: #525659;
+}
+
+.nav-link li {
+  margin: 0 30px;
+}
+
+.projetsu {
+  padding-top: 5vh;
+  background-image: url("../IMG/Fond_page01.png");
+  height: 100vh;
+}
+
+.content {
+  padding-top: 5vh;
   display: flex;
   justify-content: center;
-  font-size: 50px;
-  color:#d4d4d4 ;
 }
 
 .content img {
-  padding-left: 10vw;
-  display: flex;
-  justify-content: center;
-  max-width: 15%;
+  padding-top: 1.5em;
+  max-width: 20%;
 }
 
-.content h2 {
-  padding-top: 5vh;
-  color: #d4d4d4;
-  font-size: 45px;
-  font-family: 'Gill';
-  padding-left: 10vw;
-}
-
-.content p {
+.text01 p {
   padding-top: 3vh;
-  padding-left: 10vw;
+  margin: 0 5em;
   font-family:'Gill' ;
   font-size: 25px;
   color: #d4d4d4;
+}
+
+.cotcotboom {
+  background-image: url("../IMG/Fond_Cotcotboom.png");
+  height: 100vh;
+}
+
+.cotlogo {
+  display: flex;
+  justify-content: center;
+}
+
+.cotlogo img {
+  max-width: 30%;
+}
+
+.text02 {
+  background-color: #0f0f0f;
+  opacity: 0.9;
+}
+
+.text02 p {
+  padding-top: 3vh;
+  margin: 0 5em;
+  font-family:'Gill' ;
+  font-size: 25px;
+  color: #d4d4d4;
+}
+
+.mention p {
+  padding-top: 3vh;
+  margin: 0 5em;
+  font-family:'Gill' ;
+  font-size: 25px;
+  color: #d4d4d4; 
+}
+
+
+.mention {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 33% 33% 33%;
+  padding-top: 20vh;
+}
+
+
+.mention>p {
+  text-align: center;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.mention a {
+  text-decoration: none;
+  padding-left: 13vh;
+  font-size: 1.5em;
+  color: #d4d4d4;
+}
+
+.mention a:hover {
+  text-decoration: underline;
+}
+
+.programmeurs {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.programmeurs p {
+  padding-bottom: 2vh;
+}
+
+.artistes {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+.artistes p {
+  padding-bottom: 2vh;
+}
+
+.assets img {
+  padding-left: 25vh;
+  max-width: 29%;
+}
+
+.assets h1 {
+  display: flex;
+  justify-content: center;
+  color: #d4d4d4;
+  padding-top: 15vh;
+  font-size: 2em;
 }
 
 @media (min-width: 600px){
@@ -92,39 +219,29 @@ body {
   }
 }
 
-
-.imgnav {
-  align-items: center;
-  max-width: 100%;
+.apropos {
+  display: grid;
+  grid-template-columns: 16% 16% 16% 16% 16%;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 50px;
-  width: 100%;
-  box-sizing: border-box;
+.text_3_01 {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
-
-.navbar a {
-    font-family:'Gill Sans MT';
-    text-decoration: none;
-    color: #d4d4d4;
-    font-size: 25px;
+.text_3_01 h1 {
+  font-size: 50px;
+  padding-top: 2.5em;
+  font-family: 'Gill';
+  color: #d4d4d4;
 }
 
-.nav-link ul {
-  display: flex;
-  align-items: center;
+.text_3_01 p {
+  color: #d4d4d4;
+  font-size: 25px;
 }
 
-.nav-link li {
-  margin: 0 30px;
+.apropos img {
+  grid-column-start: 4;
+  grid-column-end: 7;
 }
-
-
-
-

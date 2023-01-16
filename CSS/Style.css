@@ -8,7 +8,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url(../IMG/F_02.png);
+    background-image: url(../IMG/F_01.png);
     background-color: #0f0f0f;
     overflow: hidden;
     background-size: cover;
@@ -75,7 +75,7 @@ body {
   .mentionart {
     display: flex;
     justify-content: right;
-    padding-top: 20vh;
+    padding-top: 25vh;
     padding-right: 5vw;
     font-size: 0.8em;
     font-family: 'Gill';
@@ -90,6 +90,7 @@ body {
 }
 
 .navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   padding-left: 150px;
